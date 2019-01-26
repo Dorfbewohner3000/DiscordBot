@@ -15,6 +15,8 @@ public class Help {
         info.put("help", "You get a Message with all Bot-Help");
         Commands.add("join");
         info.put("join", "The Bot will join in your channel");
+        Commands.add("leave");
+        info.put("leave", "The Bot will leave the channel");
     }
     public String HelpMessage(String cmd) {
         String out = "";
